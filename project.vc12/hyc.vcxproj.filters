@@ -1,0 +1,763 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{c36f1a51-1b84-48f3-b350-bd940d53f7b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\common">
+      <UniqueIdentifier>{acaa5c49-0626-48f9-b796-2fa775e5b733}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\_platform">
+      <UniqueIdentifier>{7fbef7b8-a4cc-4f91-ae42-49e2c8e46341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\container">
+      <UniqueIdentifier>{52b2df0e-3d2a-4b69-b9c4-f33d0335e5dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\network">
+      <UniqueIdentifier>{f4dbc755-fe3e-412f-94fd-d357d27d6454}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\network\http">
+      <UniqueIdentifier>{f448599b-04e6-4fa0-ae4c-b73440b5ffa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\network\socket">
+      <UniqueIdentifier>{ef5322be-81c9-4204-97ee-1bce03c9af41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\network\socket\async">
+      <UniqueIdentifier>{f25e72d2-36a2-4042-a79a-2b39ad3cec0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\network\socket\async\win32">
+      <UniqueIdentifier>{28e5d811-6c02-49a4-83c2-263119c900d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\network\selector">
+      <UniqueIdentifier>{0dc2fcec-7b76-42ac-9e32-9fc6aedec704}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\network\smtp">
+      <UniqueIdentifier>{68be56f7-548b-4a56-bf23-e621f5d28c34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\network\selector2">
+      <UniqueIdentifier>{45ab8378-6b91-453c-b333-5fef04acf58e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\io">
+      <UniqueIdentifier>{7cb5f66e-49af-4b20-b641-0bd45ac31a35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\os">
+      <UniqueIdentifier>{76dc3f99-1c02-4934-8a04-cecdaf59dacd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\utils">
+      <UniqueIdentifier>{fa430563-08b5-460b-94a0-0c79b0f8e819}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\_mobile">
+      <UniqueIdentifier>{2aebb0df-06c9-41db-bfda-1cadad5d687b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\event">
+      <UniqueIdentifier>{450c70e9-1ca8-4fa6-afd8-01ad43f9b5b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\template">
+      <UniqueIdentifier>{653ee237-a033-4091-b4dd-4bfa15b06fc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\template\geom">
+      <UniqueIdentifier>{ea5e8603-cfb7-422d-8766-3b38a1f557cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\template\geom\utils">
+      <UniqueIdentifier>{5a8f2d65-40f2-4bb2-8f0b-26b4e036b440}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\template\statechart">
+      <UniqueIdentifier>{5d63ea8f-38da-4366-9f5b-c92d062d2785}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\template\concurrent">
+      <UniqueIdentifier>{e10bdc66-6c12-40f3-85c5-c75fabc40710}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\template\concurrent\core">
+      <UniqueIdentifier>{08bd2532-81b1-433e-afef-38b09e52875a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{760c3ba4-65f9-4e2f-81ea-0097dd574103}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\network">
+      <UniqueIdentifier>{38559c3c-46da-4c6c-bf5e-400908d1b683}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\network\socket">
+      <UniqueIdentifier>{8c1e14b4-c7dd-4d7b-be23-7d4cc975bd8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\network\http">
+      <UniqueIdentifier>{7a396ddb-57eb-4ac9-8af4-bca55d74cdb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\network\smtp">
+      <UniqueIdentifier>{8bffb482-26a3-46e6-88cb-564dfa4056a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\network\selector2">
+      <UniqueIdentifier>{b108c532-536c-4003-addc-d304e4a1c5cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\common">
+      <UniqueIdentifier>{c3c0dc2b-2bd6-4f22-91d4-c16b3ab083f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\_win32">
+      <UniqueIdentifier>{cc3c9338-ffe7-4819-ad9b-3c0dbc0b92c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\_win32\network">
+      <UniqueIdentifier>{44edaa6f-fbe0-4331-af8b-96f1ccb25947}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\container">
+      <UniqueIdentifier>{9e02a73c-3577-4ea7-8979-a67f07c0b891}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\io">
+      <UniqueIdentifier>{2717b94c-8487-4d98-ac34-847b58ebece5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\os">
+      <UniqueIdentifier>{67dba608-8115-4af8-8cd9-9ae1f04370a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\utils">
+      <UniqueIdentifier>{5484ff1e-0483-44e9-abaa-92416bfa54b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ext">
+      <UniqueIdentifier>{7d47a8d3-1763-4866-8029-a46f0a968371}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ext\nedmalloc">
+      <UniqueIdentifier>{534b144e-c0c3-4fd1-ac70-38cd45f66a0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ext\rapidxml">
+      <UniqueIdentifier>{e562ba39-5d12-4231-a982-5fb6fcaee66e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ext\CSHA1">
+      <UniqueIdentifier>{9f3bc7e8-0608-4117-b4b6-37cdfb0a93f7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\_platform.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\_trace.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\hyc.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\hycConfig.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\hycException.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\hycLeakDetector.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\hycPlatform.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\common\cnInterface.h">
+      <Filter>include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\common\cnMath.h">
+      <Filter>include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\common\cnObjectPtr.h">
+      <Filter>include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\common\cnObjectPtrSafe.h">
+      <Filter>include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\common\cnObjectRef.h">
+      <Filter>include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\common\cnSingleton.h">
+      <Filter>include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\common\cnString.h">
+      <Filter>include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\_platform\iOS.h">
+      <Filter>include\_platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\_platform\platform.h">
+      <Filter>include\_platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\container\array.h">
+      <Filter>include\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\container\arraySafe.h">
+      <Filter>include\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\container\asyncContainer.h">
+      <Filter>include\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\container\byteStream.h">
+      <Filter>include\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\container\fixArray.h">
+      <Filter>include\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\container\hash.h">
+      <Filter>include\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\container\memoryAlloc.h">
+      <Filter>include\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\container\memoryPool.h">
+      <Filter>include\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\network\netPlatform.h">
+      <Filter>include\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\network\netType.h">
+      <Filter>include\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\network\http\httpRequest.h">
+      <Filter>include\network\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\network\http\httpResponse.h">
+      <Filter>include\network\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\network\http\httpStatusCode.h">
+      <Filter>include\network\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\network\http\httpType.h">
+      <Filter>include\network\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\network\http\httpUtils.h">
+      <Filter>include\network\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\network\socket\netStatus.h">
+      <Filter>include\network\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\network\socket\netUtils.h">
+      <Filter>include\network\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\network\socket\socketUtils.h">
+      <Filter>include\network\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\network\socket\tcpAcceptor.h">
+      <Filter>include\network\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\network\socket\tcpTransceiver.h">
+      <Filter>include\network\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\network\socket\transceiver.h">
+      <Filter>include\network\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\network\socket\udpTransceiver.h">
+      <Filter>include\network\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\network\socket\async\asyncTransceiver.h">
+      <Filter>include\network\socket\async</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\network\socket\async\win32\iocpTcpAcceptor.h">
+      <Filter>include\network\socket\async\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\network\socket\async\win32\iocpTcpTransceiver.h">
+      <Filter>include\network\socket\async\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\network\socket\async\win32\iocpUdpTransceiver.h">
+      <Filter>include\network\socket\async\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\network\selector\epollSelector.h">
+      <Filter>include\network\selector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\network\selector\iocpSelector.h">
+      <Filter>include\network\selector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\network\selector\kqueueSelector.h">
+      <Filter>include\network\selector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\network\selector\selector.h">
+      <Filter>include\network\selector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\network\selector\selectorEvent.h">
+      <Filter>include\network\selector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\network\smtp\smtp.h">
+      <Filter>include\network\smtp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\network\smtp\smtpType.h">
+      <Filter>include\network\smtp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\network\selector2\selector2.h">
+      <Filter>include\network\selector2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\network\selector2\selectSelector2.h">
+      <Filter>include\network\selector2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\network\selector2\simpleServer_tcp.hpp">
+      <Filter>include\network\selector2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\io\fileStream.h">
+      <Filter>include\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\io\jsonDoc.h">
+      <Filter>include\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\io\jsonObject.h">
+      <Filter>include\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\io\jsonValue.h">
+      <Filter>include\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\io\keyborad.h">
+      <Filter>include\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\io\log.h">
+      <Filter>include\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\io\logListener.h">
+      <Filter>include\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\io\logMgr.h">
+      <Filter>include\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\io\mouse.h">
+      <Filter>include\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\io\xmlDoc.h">
+      <Filter>include\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\io\xmlNode.h">
+      <Filter>include\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\os\atomic.h">
+      <Filter>include\os</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\os\conditionVariable.h">
+      <Filter>include\os</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\os\dateTime.h">
+      <Filter>include\os</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\os\multiSyncObject.hpp">
+      <Filter>include\os</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\os\process.h">
+      <Filter>include\os</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\os\thread.h">
+      <Filter>include\os</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\os\threadPool.h">
+      <Filter>include\os</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\os\timer.h">
+      <Filter>include\os</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\utils\byteUtils.h">
+      <Filter>include\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\utils\cryptUtils.h">
+      <Filter>include\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\utils\dynLibUtils.h">
+      <Filter>include\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\utils\encodingUtils.h">
+      <Filter>include\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\utils\fileUtils.h">
+      <Filter>include\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\utils\identifierUtils.h">
+      <Filter>include\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\utils\stringUtils.h">
+      <Filter>include\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\_mobile\camera.h">
+      <Filter>include\_mobile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\_mobile\connection.h">
+      <Filter>include\_mobile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\_mobile\contacts.h">
+      <Filter>include\_mobile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\_mobile\device.h">
+      <Filter>include\_mobile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\_mobile\motion.h">
+      <Filter>include\_mobile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\event\event.h">
+      <Filter>include\event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\event\eventDelegate.hpp">
+      <Filter>include\event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\event\eventDelegateList.hpp">
+      <Filter>include\event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\event\eventDelegateT.hpp">
+      <Filter>include\event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\event\eventFunctor.hpp">
+      <Filter>include\event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\event\eventFunctorT.hpp">
+      <Filter>include\event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\template\geom\aabbox.hpp">
+      <Filter>include\template\geom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\template\geom\circle.hpp">
+      <Filter>include\template\geom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\template\geom\cylinder.hpp">
+      <Filter>include\template\geom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\template\geom\eulerAngles.hpp">
+      <Filter>include\template\geom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\template\geom\geom.hpp">
+      <Filter>include\template\geom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\template\geom\line2.hpp">
+      <Filter>include\template\geom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\template\geom\line3.hpp">
+      <Filter>include\template\geom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\template\geom\matrix3x3.hpp">
+      <Filter>include\template\geom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\template\geom\matrix4x4.hpp">
+      <Filter>include\template\geom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\template\geom\plane3.hpp">
+      <Filter>include\template\geom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\template\geom\quaternion.hpp">
+      <Filter>include\template\geom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\template\geom\ray3.hpp">
+      <Filter>include\template\geom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\template\geom\rectangle2.hpp">
+      <Filter>include\template\geom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\template\geom\sphere.hpp">
+      <Filter>include\template\geom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\template\geom\triangle2.hpp">
+      <Filter>include\template\geom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\template\geom\triangle3.hpp">
+      <Filter>include\template\geom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\template\geom\vector2.hpp">
+      <Filter>include\template\geom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\template\geom\vector3.hpp">
+      <Filter>include\template\geom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\template\geom\vector4.hpp">
+      <Filter>include\template\geom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\template\geom\utils\bezierCurve2d.hpp">
+      <Filter>include\template\geom\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\template\geom\utils\colorUtils.hpp">
+      <Filter>include\template\geom\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\template\geom\utils\geomUtils.hpp">
+      <Filter>include\template\geom\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\template\geom\utils\icurve2d.hpp">
+      <Filter>include\template\geom\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\template\geom\utils\matrix3x3Utils.hpp">
+      <Filter>include\template\geom\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\template\geom\utils\matrix4x4Utils.hpp">
+      <Filter>include\template\geom\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\template\geom\utils\neon_matrix.hpp">
+      <Filter>include\template\geom\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\template\geom\utils\quaternionUtils.hpp">
+      <Filter>include\template\geom\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\template\statechart\state.hpp">
+      <Filter>include\template\statechart</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\template\statechart\state_event.hpp">
+      <Filter>include\template\statechart</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\template\statechart\state_mechine.hpp">
+      <Filter>include\template\statechart</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\template\concurrent\queue.hpp">
+      <Filter>include\template\concurrent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\template\concurrent\core\node.hpp">
+      <Filter>include\template\concurrent\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\_trace.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\globalVar.hpp">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\preheader.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\network\http\httpResponse_private.hpp">
+      <Filter>source\network\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\common\cnStringKMP.hpp">
+      <Filter>source\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\_win32\conditionVariable.hpp">
+      <Filter>source\_win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\_win32\datetime.hpp">
+      <Filter>source\_win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\_win32\fileUtils.hpp">
+      <Filter>source\_win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\_win32\identifierUtils.hpp">
+      <Filter>source\_win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\_win32\keyborad.hpp">
+      <Filter>source\_win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\_win32\mouse.hpp">
+      <Filter>source\_win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\_win32\platform.hpp">
+      <Filter>source\_win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\_win32\process.hpp">
+      <Filter>source\_win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\_win32\socketUtils.hpp">
+      <Filter>source\_win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\_win32\stringUtils.hpp">
+      <Filter>source\_win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\_win32\thread.hpp">
+      <Filter>source\_win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\_win32\threadPool.hpp">
+      <Filter>source\_win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\_win32\timer.hpp">
+      <Filter>source\_win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\_win32\network\netUtils.hpp">
+      <Filter>source\_win32\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\_win32\network\netUtils_wifiConfig.hpp">
+      <Filter>source\_win32\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\io\jsonDocPrivat.hpp">
+      <Filter>source\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\io\jsonObjectPrivat.hpp">
+      <Filter>source\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\io\jsonValuePrivat.hpp">
+      <Filter>source\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\io\xmlPrivateClass.hpp">
+      <Filter>source\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ext\nedmalloc\malloc.c.hpp">
+      <Filter>ext\nedmalloc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ext\nedmalloc\nedmalloc.hpp">
+      <Filter>ext\nedmalloc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ext\rapidxml\rapidxml.hpp">
+      <Filter>ext\rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ext\rapidxml\rapidxml_iterators.hpp">
+      <Filter>ext\rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ext\rapidxml\rapidxml_print.hpp">
+      <Filter>ext\rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ext\rapidxml\rapidxml_utils.hpp">
+      <Filter>ext\rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ext\CSHA1\SHA1.h">
+      <Filter>ext\CSHA1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ext\CSHA1\SHA1.hpp">
+      <Filter>ext\CSHA1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\container\yunStreamHelper.h">
+      <Filter>include\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\container\yunStreamType.h">
+      <Filter>include\container</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\source\_trace.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\dllmain.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\platform.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\network\socket\netStatus.cpp">
+      <Filter>source\network\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\network\socket\netUtils.cpp">
+      <Filter>source\network\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\network\socket\socketUtils.cpp">
+      <Filter>source\network\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\network\socket\tcpAcceptor.cpp">
+      <Filter>source\network\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\network\socket\tcpTransceiver.cpp">
+      <Filter>source\network\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\network\socket\udpTransceiver.cpp">
+      <Filter>source\network\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\network\http\httpRequest.cpp">
+      <Filter>source\network\http</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\network\http\httpResponse.cpp">
+      <Filter>source\network\http</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\network\http\httpUtils.cpp">
+      <Filter>source\network\http</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\network\smtp\smtp.cpp">
+      <Filter>source\network\smtp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\network\selector2\selectSelector2.cpp">
+      <Filter>source\network\selector2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\common\cnMath.cpp">
+      <Filter>source\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\common\cnString.cpp">
+      <Filter>source\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\_win32\network\iocpSelector.cpp">
+      <Filter>source\_win32\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\_win32\network\iocpTcpAccept.cpp">
+      <Filter>source\_win32\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\_win32\network\iocpTcpTransceiver.cpp">
+      <Filter>source\_win32\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\_win32\network\iocpUdpTransceiver.cpp">
+      <Filter>source\_win32\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\container\byteStream.cpp">
+      <Filter>source\container</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\container\memoryAlloc.cpp">
+      <Filter>source\container</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\io\fileStream.cpp">
+      <Filter>source\io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\io\jsonDoc.cpp">
+      <Filter>source\io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\io\jsonDocPrivat.cpp">
+      <Filter>source\io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\io\jsonObject.cpp">
+      <Filter>source\io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\io\jsonObjectPrivat.cpp">
+      <Filter>source\io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\io\jsonValue.cpp">
+      <Filter>source\io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\io\jsonValuePrivat.cpp">
+      <Filter>source\io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\io\keyborad.cpp">
+      <Filter>source\io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\io\log.cpp">
+      <Filter>source\io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\io\logListener.cpp">
+      <Filter>source\io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\io\logMgr.cpp">
+      <Filter>source\io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\io\mouse.cpp">
+      <Filter>source\io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\io\xmlDoc.cpp">
+      <Filter>source\io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\io\xmlNode.cpp">
+      <Filter>source\io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\io\xmlPrivateClass.cpp">
+      <Filter>source\io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\os\atomic.cpp">
+      <Filter>source\os</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\os\conditionVariable.cpp">
+      <Filter>source\os</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\os\dateTime.cpp">
+      <Filter>source\os</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\os\process.cpp">
+      <Filter>source\os</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\os\thread.cpp">
+      <Filter>source\os</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\os\threadPool.cpp">
+      <Filter>source\os</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\os\timer.cpp">
+      <Filter>source\os</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\utils\byteUtils.cpp">
+      <Filter>source\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\utils\cryptUtils_crc32.cpp">
+      <Filter>source\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\utils\cryptUtils_md5.cpp">
+      <Filter>source\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\utils\cryptUtils_rc4.cpp">
+      <Filter>source\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\utils\cryptUtils_sha1.cpp">
+      <Filter>source\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\utils\dynLibUtils.cpp">
+      <Filter>source\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\utils\encodingUtils.cpp">
+      <Filter>source\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\utils\fileUtils.cpp">
+      <Filter>source\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\utils\identifierUtils.cpp">
+      <Filter>source\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\utils\stringUtils.cpp">
+      <Filter>source\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ext\nedmalloc\nedmalloc.cpp">
+      <Filter>ext\nedmalloc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\hyc.external.txt" />
+    <Text Include="..\hyc.revision.txt" />
+  </ItemGroup>
+</Project>

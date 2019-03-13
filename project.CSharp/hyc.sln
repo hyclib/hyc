@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSharp", "CSharp", "{90994DB9-08D6-46A0-9330-7469308889E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cpp", "Cpp", "{60D92494-3C51-49D2-BF5B-9E4408B8F520}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hyc", "..\project.vc9\hyc.vcproj", "{9E55DA20-13D7-4BB0-BCC8-67B883E13E7D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hyc_cs", "hyc_cs\hyc_cs.vcproj", "{ED31F8E4-E07B-409B-A31A-4D0A0FD8CE22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test\test.csproj", "{9659C9DE-B3F4-441C-84CB-D9F27CA2A654}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|Win32 = Debug|Win32
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E55DA20-13D7-4BB0-BCC8-67B883E13E7D}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{9E55DA20-13D7-4BB0-BCC8-67B883E13E7D}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{9E55DA20-13D7-4BB0-BCC8-67B883E13E7D}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{9E55DA20-13D7-4BB0-BCC8-67B883E13E7D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9E55DA20-13D7-4BB0-BCC8-67B883E13E7D}.Debug|Win32.Build.0 = Debug|Win32
+		{9E55DA20-13D7-4BB0-BCC8-67B883E13E7D}.Release|Any CPU.ActiveCfg = Release|Win32
+		{9E55DA20-13D7-4BB0-BCC8-67B883E13E7D}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{9E55DA20-13D7-4BB0-BCC8-67B883E13E7D}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{9E55DA20-13D7-4BB0-BCC8-67B883E13E7D}.Release|Win32.ActiveCfg = Release|Win32
+		{9E55DA20-13D7-4BB0-BCC8-67B883E13E7D}.Release|Win32.Build.0 = Release|Win32
+		{ED31F8E4-E07B-409B-A31A-4D0A0FD8CE22}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{ED31F8E4-E07B-409B-A31A-4D0A0FD8CE22}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{ED31F8E4-E07B-409B-A31A-4D0A0FD8CE22}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{ED31F8E4-E07B-409B-A31A-4D0A0FD8CE22}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ED31F8E4-E07B-409B-A31A-4D0A0FD8CE22}.Debug|Win32.Build.0 = Debug|Win32
+		{ED31F8E4-E07B-409B-A31A-4D0A0FD8CE22}.Release|Any CPU.ActiveCfg = Release|Win32
+		{ED31F8E4-E07B-409B-A31A-4D0A0FD8CE22}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{ED31F8E4-E07B-409B-A31A-4D0A0FD8CE22}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{ED31F8E4-E07B-409B-A31A-4D0A0FD8CE22}.Release|Win32.ActiveCfg = Release|Win32
+		{ED31F8E4-E07B-409B-A31A-4D0A0FD8CE22}.Release|Win32.Build.0 = Release|Win32
+		{9659C9DE-B3F4-441C-84CB-D9F27CA2A654}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9659C9DE-B3F4-441C-84CB-D9F27CA2A654}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9659C9DE-B3F4-441C-84CB-D9F27CA2A654}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{9659C9DE-B3F4-441C-84CB-D9F27CA2A654}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{9659C9DE-B3F4-441C-84CB-D9F27CA2A654}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{9659C9DE-B3F4-441C-84CB-D9F27CA2A654}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9659C9DE-B3F4-441C-84CB-D9F27CA2A654}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9659C9DE-B3F4-441C-84CB-D9F27CA2A654}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{9659C9DE-B3F4-441C-84CB-D9F27CA2A654}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{9659C9DE-B3F4-441C-84CB-D9F27CA2A654}.Release|Win32.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ED31F8E4-E07B-409B-A31A-4D0A0FD8CE22} = {90994DB9-08D6-46A0-9330-7469308889E4}
+		{9659C9DE-B3F4-441C-84CB-D9F27CA2A654} = {90994DB9-08D6-46A0-9330-7469308889E4}
+		{9E55DA20-13D7-4BB0-BCC8-67B883E13E7D} = {60D92494-3C51-49D2-BF5B-9E4408B8F520}
+	EndGlobalSection
+EndGlobal

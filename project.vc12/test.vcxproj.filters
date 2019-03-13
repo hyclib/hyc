@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="test">
+      <UniqueIdentifier>{6da6eb67-e422-441f-949c-1bea3eaceb5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="demo">
+      <UniqueIdentifier>{58806bcb-2f71-4dff-83bc-55eb2fcf6cd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="demo\os">
+      <UniqueIdentifier>{6d7d2739-e72f-4a0b-83f6-7c86b771c8ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="demo\net">
+      <UniqueIdentifier>{0cfb933b-9063-4eae-b336-0fcd19de9095}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="demo\statechart">
+      <UniqueIdentifier>{1520b397-5b58-4107-bf57-761836e7aea0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="demo\container">
+      <UniqueIdentifier>{26792c34-ccba-4a62-86d4-5982122ff180}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="demo\concurrent">
+      <UniqueIdentifier>{3d9c3d43-b408-4fb3-b785-f5429c79d52b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="demo\common">
+      <UniqueIdentifier>{3dd2953b-27b6-4dd8-bdae-41b600eea83c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="demo\io">
+      <UniqueIdentifier>{c66c0ce3-67db-4ed1-975f-0d82b2c7e471}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\test\hycTest.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\demo\os\os.h">
+      <Filter>demo\os</Filter>
+    </ClInclude>
+    <ClInclude Include="..\demo\os\thread.h">
+      <Filter>demo\os</Filter>
+    </ClInclude>
+    <ClInclude Include="..\demo\os\threadPool.h">
+      <Filter>demo\os</Filter>
+    </ClInclude>
+    <ClInclude Include="..\demo\net\http.h">
+      <Filter>demo\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\demo\net\simpleServer_tcp.h">
+      <Filter>demo\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\demo\net\smtp.h">
+      <Filter>demo\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\demo\net\tcp_c.h">
+      <Filter>demo\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\demo\net\tcp_s.h">
+      <Filter>demo\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\demo\net\udp_c.h">
+      <Filter>demo\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\demo\net\udp_s.h">
+      <Filter>demo\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\demo\statechart\statemechine.hpp">
+      <Filter>demo\statechart</Filter>
+    </ClInclude>
+    <ClInclude Include="..\demo\container\arrayfind.h">
+      <Filter>demo\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\demo\container\yunstream.h">
+      <Filter>demo\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\demo\concurrent\queue.h">
+      <Filter>demo\concurrent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\demo\common\common.h">
+      <Filter>demo\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\demo\common\objectPtr.h">
+      <Filter>demo\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\demo\io\xml.h">
+      <Filter>demo\io</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\test\main.cpp" />
+  </ItemGroup>
+</Project>

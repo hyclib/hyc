@@ -1,0 +1,5 @@
+CSHA1 2.1
+nedalloc v1.05 15th June 2008
+rapidxml v1.13
+e2fsprogs v1.42.9 —linux
+	  使用其中的libuuid库

@@ -1,0 +1,6 @@
+1. ios当前使用语言
+
+NSUserDefaults *defaults = [ NSUserDefaults standardUserDefaults ];  
+    // 取得 iPhone 支持的所有语言设置  
+    NSArray *languages = [defaults objectForKey : @"AppleLanguages" ];  
+    NSLog ( @"%@" , languages);
